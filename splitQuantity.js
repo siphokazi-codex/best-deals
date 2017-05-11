@@ -1,5 +1,6 @@
-module.exports = function splitQuantity(priceQty) {
+module.exports = function splitQuantity(quantity) {
 
- var splitQty = priceQty.split(",");
- return splitQty;
+  var quantitySpilt = quantity.split(",");
+  var quantityCount = quantitySpilt.length;
+  return quantityCount;
 }
